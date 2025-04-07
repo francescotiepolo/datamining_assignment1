@@ -41,7 +41,7 @@ def stress_parse(df: pd.DataFrame) -> pd.DataFrame:
     df["Parsed What is your stress level (0-100)?"] = df["What is your stress level (0-100)?"]
     whitelist_set = set("0123456789.-")
     samples_needed = []
-    random_number = []
+    stress = []
     for i, row in df.iterrows():
         parsed: str = str(row["Parsed What is your stress level (0-100)?"]).strip().lower()
         parsed = ''.join([c for c in parsed if c in whitelist_set]).strip()
@@ -51,12 +51,12 @@ def stress_parse(df: pd.DataFrame) -> pd.DataFrame:
                 samples_needed.append(i)
             else:
                 df.at[i, "Parsed What is your stress level (0-100)?"] = str(number)
-                random_number.append(str(number))
+                stress.append(str(number))
         except:
             samples_needed.append(i)
 
     for i in samples_needed:
-        df.at[i, "Parsed What is your stress level (0-100)?"] = random.choice(random_number)
+        df.at[i, "Parsed What is your stress level (0-100)?"] = random.choice(stress)
     return df
 
 def sports_parse(df: pd.DataFrame) -> pd.DataFrame:
@@ -72,9 +72,12 @@ def sports_parse(df: pd.DataFrame) -> pd.DataFrame:
             samples_needed.append(i)
         elif "-" in parsed:
             parts = parsed.split("-")
-            average = (float(parts[1]) - float(parts[0]))/2
-            num = str(round(average))
-            sports.append(num)
+            if len(parts[0]) == 0: #We have a negative number
+                samples_needed.append(i)
+            else:
+                average = (float(parts[1]) - float(parts[0]))/2
+                num = str(round(average))
+                sports.append(num)
         else:
             num = float(parsed)
             if num < 0:
@@ -85,4 +88,29 @@ def sports_parse(df: pd.DataFrame) -> pd.DataFrame:
 
     for i in samples_needed:
         df.at[i, "Parsed How many hours per week do you do sports (in whole hours)?"] = random.choice(str(sports))
+    return df
+
+def random_number_parse(df: pd.DataFrame) -> pd.DataFrame:
+    df["Parsed Give a random number"] = df["Give a random number"]
+    samples_needed = []
+    guess = []
+    for i, row in df.iterrows():
+        parsed: str = str(row["Parsed Give a random number"]).strip().lower()
+        num = 0
+        if i == 151: #Special case is a number in natural language:
+            num = 8435.65
+            guess.append(num)
+        elif "cleanme" in parsed:
+            num = int(parsed.replace("cleanme", ""))
+            guess.append(num)
+        else:
+            try:
+                num = int(parsed)
+                guess.append(num)
+            except:
+                samples_needed.append(i)
+        df.at[i, "Parsed Give a random number"] = str(num)
+
+    for i in samples_needed:
+        df.at[i, "Parsed Give a random number"] = random.choice(str(guess))
     return df

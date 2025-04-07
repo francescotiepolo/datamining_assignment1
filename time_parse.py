@@ -21,7 +21,6 @@ def time_parse(df: pd.DataFrame) -> pd.DataFrame:
     hours = []
     for i, row in df.iterrows():
         parsed: str = row["Parsed Time you went to bed Yesterday"].strip().lower()
-        print(parsed)
         if "midnight" in parsed:
             parsed = "00:00"
             hours.append(parsed.split(":")[0])

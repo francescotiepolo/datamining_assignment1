@@ -7,7 +7,6 @@ from number_parse import approximate_parse, stress_parse, sports_parse, random_n
 ignore = [239,244]
 
 dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep + ".." + os.path.sep
-exit()
 df = pd.read_csv(dir + "ODI-2025.csv",sep=";")
 df = df.drop(ignore)
 df = approximate_parse(df)

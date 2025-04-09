@@ -1,0 +1,246 @@
+Unnamed: 0,Timestamp,What programme are you in?,Have you taken a course on machine learning?,Have you taken a course on information retrieval?,Have you taken a course on statistics?,Have you taken a course on databases?,What is your gender?,I have used ChatGPT to help me with some of my study assignments ,When is your birthday (date)?,How many students do you estimate there are in the room?,What is your stress level (0-100)?,How many hours per week do you do sports (in whole hours)? ,Give a random number,Time you went to bed Yesterday,What makes a good day for you (1)?,What makes a good day for you (2)?,Parsed How many students do you estimate there are in the room?,Parsed What is your stress level (0-100)?,Parsed How many hours per week do you do sports (in whole hours)?,Parsed Give a random number,Parsed Time you went to bed Yesterday,category_goodday_1,category_goodday_2
+0,04/01/2025 12:17,MSc Artificial Intelligence,yes,unknown,mu,ja,male,yes,01-01-1888,400,78,0,928393,00:00,Food,Travel,400,78,0,928393,00:00,food,holiday
+1,04/01/2025 12:17,Artificial Intelligence ,yes,1,sigma,ja,female,yes,31/01/2002,321,1000,2,31.416,12:30,sun,coffee,321,69,2,,12:30,weather,food
+2,04/01/2025 12:17,Econometrics,yes,1,mu,ja,male,not willing to say,September ,200,101,4,5,00:30,Zonnetje,Aperol,200,15,4,5,00:30,weather,alchol/drugs
+3,04/01/2025 12:17,Econometrics - Data Science,yes,0,mu,nee,male,yes,17/10/2003,350,60,6,37,23:00,Sun,Sun,350,60,6,37,23:00,weather,weather
+4,04/01/2025 12:17,Bioinformatics’s & Systems Biology,yes,1,mu,ja,male,yes,19/04/2000,500,50,8,1,12,-,-,500,50,8,1,12:00,sport,weather
+5,04/01/2025 12:17,Econometrics,no,unknown,mu,nee,gender fluid,not willing to say,Tomorrow,467,"99,7",8,0,5am,Chocolate,Bitterballen,467,75,8,0,05:00,food,food
+6,04/01/2025 12:17,Econometrics,no,0,mu,ja,female,yes,25/10/1999,500,60,4,4,12:00,Sun,Good food,500,60,4,4,12:00,weather,food
+7,04/01/2025 12:17,computer science,yes,0,sigma,ja,male,not willing to say,01/Apr,400,30,1,6656678,12am,good food,good grade,400,30,1,6656678,00:00,food,study/work
+8,04/01/2025 12:17,Masters in AI,no,0,mu,ja,female,yes,29/01/2001,500,60,3,888,10:37,Sun1,Sun2,500,60,3,888,10:37,weather,weather
+9,04/01/2025 12:17,Ms cs,no,0,mu,ja,gender fluid,not willing to say,01082000,200,70,1,420420420420420420,0200,Work done good,Then smoke weed,200,70,1,420420420420420420,02:00,study/work,alchol/drugs
+10,04/01/2025 12:17,AI,yes,1,sigma,ja,female,yes,19/10/1999,250,100,4,3,11:00 PM,Good food ,Nice company ,250,100,4,3,23:00,food,friends/family
+11,04/01/2025 12:17,Computer Science (joint degree),yes,1,unknown,ja,male,yes,01/01/1999,400,20,"4,5",5.38E+16,00:00,Pizza,Beers,400,20,45,,00:00,food,alchol/drugs
+12,04/01/2025 12:17,NPN,yes,unknown,mu,ja,male,yes,01012000,345,60,8,1984,23h45,Good food,Good sleep ,345,60,8,1984,23:45,food,sleep/rest
+13,04/01/2025 12:17,Masters Artificial Intelligence ,yes,1,mu,ja,male,no,June 15 2001,500,50,4,72,9:00 AM,Mama’s food,Dad’s card ,500,50,4,72,09:00,food,money
+14,04/01/2025 12:17,Computer science,yes,1,unknown,ja,female,no,01,200,70,2,7,9,Good work,Good sleep,200,70,2,7,09:00,study/work,sleep/rest
+15,04/01/2025 12:17,Computer Science,no,0,mu,ja,male,yes,27/02/2001,500,1000,0,94,2:00 AM,Passing courses,Sleeping,500,22,0,94,02:00,study/work,sleep/rest
+16,04/01/2025 12:17,Artificial Intelligence,yes,1,sigma,ja,male,yes,10/05/1982,400,50,7,13,01.00,Drugs,More drugs,400,50,7,13,01:00,alchol/drugs,alchol/drugs
+17,04/01/2025 12:17,Master AI,no,0,mu,ja,female,yes,16.12.1998,400,30,10,28,23.3,Coffee,Sports,400,30,10,28,23:30,food,sport
+18,04/01/2025 12:17,Bioinformatics and systems biology ,yes,0,unknown,unknown,female,yes,23/06/2002,200,1000,0,9,23:16,Nothing ,Nothing ,200,60,0,9,23:16,joke,joke
+19,04/01/2025 12:17,Master’s Business Analytics,yes,0,sigma,ja,female,yes,10/08/2000,200,70,0,8,2,Passing grade,Credit in balance,200,70,0,8,02:00,study/work,money
+20,04/01/2025 12:17,Artificial intelligence ,yes,1,mu,ja,male,yes,30/12/2003,200,5,12,6372,01:00,Sun,More sun,200,5,12,6372,01:00,weather,weather
+21,04/01/2025 12:17,AI,yes,1,mu,ja,male,yes,11/Aug,500,8,6,27,23, , ,500,8,6,27,23:00,sport,weather
+22,04/01/2025 12:17,AI,yes,1,mu,ja,male,yes,Idk,300,9999,10,9999,1:00 AM,Not having EDDA exam,Freetime,300,60,10,9999,01:00,sleep/rest,sleep/rest
+23,04/01/2025 12:17,Masters in Artificial Intelligence,no,0,mu,nee,male,yes,04/19/2000,300,20,3,78,12:30 PM,Hanging with friends in the sun,Eating good food,300,20,3,78,12:30,friends/family,food
+24,04/01/2025 12:17,Artificial Intelligence ,yes,0,mu,ja,female,yes,19/07/2003,300,50,4,38,23:30,Sun,Activity ,300,50,4,38,23:30,weather,sport
+25,04/01/2025 12:17,Computational Science ,no,0,mu,nee,female,yes,19/Feb,500,15,12,19,00:30,Good food ,Friends ,500,15,12,19,00:30,food,friends/family
+26,04/01/2025 12:17,Master econometrics,no,0,mu,nee,female,not willing to say,19.05.2000,100,75,6,777,0.3,Sun,Cappuccino,100,75,6,777,00:30,weather,food
+27,04/01/2025 12:17,AI,yes,0,mu,ja,female,yes,Sep/14,550,1E+14,7,74,2,Sun,Food,550,7,7,74,02:00,weather,food
+28,04/01/2025 12:17,AI,yes,0,unknown,ja,female,not willing to say,1999,180-200,2,04/May,99,1:00 AM,Sunny day,Hanging out with friends,10,2,0,99,01:00,weather,friends/family
+29,04/01/2025 12:17,AI,yes,0,mu,ja,female,yes,11.12.2001,300,3,10,25,12,dance,company,300,3,10,25,12:00,sport,friends/family
+30,04/01/2025 12:17,Econometrics,no,0,mu,nee,male,yes,24.01.1999,300,55,2,27,12:00,Spending time with Marc,Nice warm weather,300,55,2,27,12:00,friends/family,weather
+31,04/01/2025 12:17,AI master,yes,0,mu,nee,male,yes,29-070-2000,456,20,9,108,23:57,Yoga,Delicious food,456,20,9,108,23:57,sport,food
+32,04/01/2025 12:17,Artificial Intelligences,yes,1,sigma,ja,not willing to answer,yes,24 de Diciembre ,20*5*5,100,10,37,05:00,Alcohol,More alcohol,380,100,10,37,05:00,alchol/drugs,alchol/drugs
+33,04/01/2025 12:17,Computer Science,no,unknown,mu,ja,female,no,01/06/2000,100,100,1,4738,12,grade 10,win lottery ,100,100,1,4738,12:00,study/work,money
+34,04/01/2025 12:17,Msc AI,yes,1,sigma,ja,male,yes,11/11/2000,250,20,5,11011011,23:30,Socialising ,When I've learned something new,250,20,5,11011011,23:30,friends/family,study/work
+35,04/01/2025 12:17,Master Artificial Intelligence,yes,0,mu,nee,male,yes,05.11.1997,250,80,4,87,04:00,doing sports,not having anxiety,250,80,4,87,04:00,sport,mood
+36,04/01/2025 12:17,Computational Science,yes,0,mu,nee,male,yes,27/11/2002,487,30,7,39,22:30,Sports,Free time,487,30,7,39,22:30,sport,sleep/rest
+37,04/01/2025 12:17,MSc in Finance and Technology,yes,0,mu,nee,male,yes,20/07/2001,490,75,0,7,00:45,Booking tickets,drinking beers,490,75,0,7,00:45,holiday,alchol/drugs
+38,04/01/2025 12:17,Master Computer Science,yes,1,mu,ja,female,yes,2000,300,10,2,77945354356758979022123,00:30,seeing friends,no work,300,10,2,77945354356758979022123,00:30,friends/family,study/work
+39,04/01/2025 12:18,Human Language Technology,yes,0,unknown,ja,female,yes,23/12/2002,450,10,3,1934,01:30,Nice weather,No work,450,10,3,1934,01:30,weather,study/work
+40,04/01/2025 12:18,Master’s in AI,no,0,mu,ja,female,yes,16/03/2002,550,50,8,8,00:30,Good food,Sun ,550,50,8,8,00:30,food,weather
+41,04/01/2025 12:18,Master Artificial Intelligence,yes,0,mu,ja,male,yes,09/05/2002,350,45,4,69420,23:30,Feeling energized,Reaching the goals I set for myself that day,350,45,4,69420,23:30,mood,study/work
+42,04/01/2025 12:18,Quantitative Finance,yes,0,mu,ja,male,yes,18/05/2003,300,5,8,14,12,Sports,Friends,300,5,8,14,12:00,sport,friends/family
+43,04/01/2025 12:18,Business analytics ,yes,1,mu,ja,female,yes,11/11/2002,450,89,7,69,23:40,Bubble tea,Dog,450,89,7,69,23:40,food,friends/family
+44,04/01/2025 12:18,Econometrics and operations research ,yes,1,mu,ja,male,no,2000,350,0,4,14,3,No school,High grade,350,0,4,14,03:00,sleep/rest,study/work
+45,04/01/2025 12:18,AI,yes,unknown,mu,ja,male,not willing to say,26,200,49,7,420,2am,Warm,Sun,200,49,7,420,02:00,weather,weather
+46,04/01/2025 12:18,Masters in AI,yes,1,mu,ja,male,yes,29th September 2001,600,1000,4,66,1am,Going to gym,Weed,200,50,4,66,01:00,sport,alchol/drugs
+47,04/01/2025 12:18,AI,yes,1,mu,ja,male,yes,21/11/2002,200,0,69,199389299284884742829r7747r8e9w929e94747uch38838udud8388383838e8e8e8e8e8e8d8du8s888x8d88d8u,02:00,Ajax winning,Drugs,200,0,69,,02:00,mood,alchol/drugs
+48,04/01/2025 12:18,Master Artifical Intelligence,yes,1,mu,ja,female,yes,December 14th,320,70,12,4,23:59,Sun,Interacting with my loved ones,320,70,12,4,23:59,weather,friends/family
+49,04/01/2025 12:18,Computer Science,no,0,mu,ja,male,yes,16/09/2001,200,30,5,2324234234234432434,12,nothing to do,can do anything,200,30,5,2324234234234432434,12:00,sleep/rest,sleep/rest
+50,04/01/2025 12:18,Security ,yes,1,sigma,ja,not willing to answer,not willing to say,1997,300,72,2,73,00:00,Beer ,Wine ,300,72,2,73,00:00,alchol/drugs,alchol/drugs
+51,04/01/2025 12:18,MSc Computer Science SEG,yes,1,mu,ja,male,no,16/08/1996,350,5,9,-1,01:00,A cold beer,Kissing the homies for good night ,350,5,9,-1,01:00,alchol/drugs,joke
+52,04/01/2025 12:18,Master AI,yes,0,sigma,nee,intersex,yes,69.69.2069,450,60,3,358,04:00,Happy,Friends,450,60,3,358,04:00,mood,friends/family
+53,04/01/2025 12:18,AI,no,0,mu,ja,female,yes,26/11/1998,150,60,2,42,2am,Good meal,Sunny day,150,60,2,42,02:00,food,weather
+54,04/01/2025 12:18,AI,yes,1,sigma,ja,not willing to answer,yes,23 maart,375,6,10,61,23-00,Az winning,Went to the gym,375,6,10,61,23:00,mood,sport
+55,04/01/2025 12:18,AI,yes,0,mu,ja,male,yes,14/09/2000,200,13,6,7,00:00,Sunny,Pilsie,200,13,6,7,00:00,weather,alchol/drugs
+56,04/01/2025 12:18,AI,yes,1,mu,ja,male,yes,-,350,0,5,69,4am,Free time,Videogames,350,0,5,69,04:00,sleep/rest,sport
+57,04/01/2025 12:18,Business Analytics,yes,0,mu,nee,female,yes,20.05.2001,500,2,4,7,01.00,"Sun, good food, being productive",Travelling,500,2,4,7,01:00,weather,holiday
+58,04/01/2025 12:18,Artificial Intelligence,no,0,mu,unknown,male,yes,28/12/1999,400,60,6,87,00.30,Praying 5 times on time,Seeing my parents and my younger brother doing fine,400,60,6,87,00:30,friends/family,friends/family
+59,04/01/2025 12:18,Artificial Intelligence ,no,0,mu,ja,male,yes,January 16th,187,11,7,6969696,2.3,Gym,Edda,187,11,7,6969696,02:30,sport,study/work
+60,04/01/2025 12:18,AI,yes,1,mu,ja,female,not willing to say,23/May,500,60,6,5,1am,sun,more sun ,500,60,6,5,01:00,weather,weather
+61,04/01/2025 12:18,Computational Science ,no,0,mu,ja,female,yes,19/Jul/97,350,35,7,95836,1:00 AM,Getting enough sleep,Healthy breakfast,350,35,7,95836,01:00,sleep/rest,food
+62,04/01/2025 12:18,Bioinformatics,yes,unknown,mu,unknown,male,no,10/12/1994,300,15,5,Random,12:00 PM,A good day,A bad day,300,15,5,,12:00,joke,joke
+63,04/01/2025 12:18,CS,yes,1,mu,ja,female,yes,20.06,400,66,6,12,23:30,Sunny weather ,Good grades ,400,66,6,12,23:30,weather,study/work
+64,04/01/2025 12:18,AI,yes,0,mu,nee,female,yes,30/09/2002,80,80,6,47,22,Sunny day spent with friends ,going to a rave,80,80,6,47,22:00,weather,alchol/drugs
+65,04/01/2025 12:18,AI,no,0,sigma,ja,not willing to answer,yes,01/01/1900,500,100,2,89,5,Sun,Sun,500,100,2,89,05:00,weather,weather
+66,04/01/2025 12:18,CS,yes,1,unknown,ja,female,yes,23,450,20,0,8,11,Rain,Chocolate,450,20,0,8,11:00,weather,food
+67,04/01/2025 12:18,AI masters,yes,0,mu,nee,male,yes,15/Feb,450,90,10,4141,12:30am,When the sun is out,Having the time to run,450,90,10,4141,00:30,weather,sport
+68,04/01/2025 12:18,Business analytics ,yes,unknown,mu,nee,male,not willing to say,13/03/2002,220,40,9,15,23:00,Get a lot of sleep(at least 8 hours),Eat good food,220,40,9,15,23:00,sleep/rest,food
+69,04/01/2025 12:18,AI,yes,1,mu,ja,non-binary,not willing to say,08.10.2001,250,30,4,6,2,happiness ,sun,250,30,4,6,02:00,mood,weather
+70,04/01/2025 12:18,AI,yes,0,mu,ja,male,yes,21/10/2001,430,30,8,37,00:30,Doing things I want to do,Not having to do things I don't want to do,430,30,8,37,00:30,study/work,sleep/rest
+71,04/01/2025 12:18,AI,yes,1,mu,ja,female,yes,10/12/1999,500,65,4,168,23:00,sun,not encountering a stressful situation,500,65,4,168,23:00,weather,mood
+72,04/01/2025 12:18,Computational science,yes,0,mu,ja,male,yes,21/06/2001,250,200,5,42,23:00,Sex,Alcohol ,250,69,5,42,23:00,friends/family,alchol/drugs
+73,04/01/2025 12:18,Econometrics ,yes,1,mu,ja,male,yes,28/02/2001,350,42,10,5347833,2300,Good food and no econometrics courses,"Sun, exercise and beer",350,42,10,5347833,23:00,food,weather
+74,04/01/2025 12:18,Masters Computer Science,no,1,unknown,nee,male,yes,28/06/2002,380,99999,10,7777,2:00 PM,weed,alcohol,380,30,10,7777,14:00,alchol/drugs,alchol/drugs
+75,04/01/2025 12:18,Computer Science ,yes,0,mu,ja,female,yes,10112000,5,60,4,8,23,Sunshine,Friends ,5,60,4,8,23:00,weather,friends/family
+76,04/01/2025 12:18,Ai,yes,0,mu,unknown,male,yes,08031998,350,15,6,42,23:00,Good weather,Chilling,350,15,6,42,23:00,weather,sleep/rest
+77,04/01/2025 12:18,AI,yes,1,mu,ja,female,yes,January 9th,400,30,4,77,23:55,Sunny weather,Good food,400,30,4,77,23:55,weather,food
+78,04/01/2025 12:18,Computational Science,yes,unknown,mu,ja,female,yes,28/May,330,47,12,30,23:45,Good food,Sun,330,47,12,30,23:45,food,weather
+79,04/01/2025 12:18,Computational Science ,yes,0,mu,ja,female,yes,26/10/2001,350,10,12,3,2am,sun,good food,350,10,12,3,02:00,weather,food
+80,04/01/2025 12:18,CS,yes,1,unknown,nee,male,yes,21/07/2002,200,20,15,6,1:30am,delicious food,alcohol dose,200,20,15,6,01:30,food,alchol/drugs
+81,04/01/2025 12:18,Master AI (UvA),yes,1,sigma,ja,male,yes,not today,250,20,3,42,00:30,no responsibilities,nice weather,250,20,3,42,00:30,sleep/rest,weather
+82,04/01/2025 12:18,Econometrics & Data Science,yes,1,mu,ja,male,yes,25/01/2003,385,6,7,10,00:00,Food,Sun,385,6,7,10,00:00,food,weather
+83,04/01/2025 12:18,Computational Science,yes,0,mu,nee,female,yes,13/Feb,390,37,4,197367,1am,Sun ,Good food,390,37,4,197367,01:00,weather,food
+84,04/01/2025 12:18,Econometrics,yes,0,mu,ja,male,yes,15/02/2002,375,50,4,1,12,Travel,Active,375,50,4,1,12:00,holiday,sport
+85,04/01/2025 12:18,Artificial Intelligence ,yes,1,sigma,ja,male,yes,02.04.2005,195,0,10,7,12:34,Not having looking for x ,Spots,195,0,10,7,12:34,joke,sport
+86,04/01/2025 12:18,Comp sci,no,0,sigma,nee,gender fluid,yes,X,300,30,4,73,1,Sun,Sub,300,30,4,73,01:00,weather,weather
+87,04/01/2025 12:18,Msc International Public Health,no,1,mu,nee,female,yes,21/03/2002,234,40,7,8,23:30,Coffee,Running in the sun,234,40,7,8,23:30,food,sport
+88,04/01/2025 12:18,Computer Science MSc.,yes,1,mu,ja,other,yes,04/Feb,330,Over 9000,0,37,5am,Got nothing to do,Interesting activities,330,90,0,37,05:00,sleep/rest,sport
+89,04/01/2025 12:18,Computational Science,yes,unknown,mu,nee,male,yes,98/12/04,480,75,3,7,1,Achivements,Socialising,480,75,3,7,01:00,study/work,friends/family
+90,04/01/2025 12:18,AI,yes,unknown,mu,ja,male,yes,-,291,79,0,74,2:00 AM,Being with someone i love,No assignment deadline!!!,291,79,0,74,02:00,friends/family,sleep/rest
+91,04/01/2025 12:18,MSc Computer Science,yes,1,sigma,ja,male,not willing to say,Lol,550,42,4,69,00:40,Eating burrata,Eating pasta,550,42,4,69,00:40,food,food
+92,04/01/2025 12:18,Ai master,yes,0,mu,ja,female,yes,26 10 2001,200,30,0,7,01:30,My boyfriend,My friends ,200,30,0,7,01:30,friends/family,friends/family
+93,04/01/2025 12:18,MSc Computer Science,yes,0,mu,ja,female,yes,10/Oct,500,100,3,3,12:45,Cats,Sun,500,100,3,3,12:45,friends/family,weather
+94,04/01/2025 12:18,Master Artificial Inteligence,yes,1,unknown,ja,intersex,not willing to say,22/01/2002,420,100,8,40,11:35,-1,-2,420,100,8,40,11:35,food,study/work
+95,04/01/2025 12:18,Bioinformatics and system biology,no,0,sigma,nee,female,yes,20010831,200,10,8,11,01:00,Delicious food,Nice weather,200,10,8,11,01:00,food,weather
+96,04/01/2025 12:18,Business Analytics,yes,1,mu,ja,male,not willing to say,14/07/2003,350,85,7,4,01:30,A beer after a exam,Seeing my dog,350,85,7,4,01:30,alchol/drugs,friends/family
+97,04/01/2025 12:18,Artificial Intelligence ,yes,1,unknown,ja,female,yes,02/01/2001,289,40,6,9.58E+15,23:25,Sun,Good exam result,289,40,6,,23:25,weather,study/work
+98,04/01/2025 12:18,Business analytics,yes,1,mu,ja,female,not willing to say,21052025,400,40,3,9,21:45,Sleeping in,No assignments,400,40,3,9,21:45,sleep/rest,sleep/rest
+99,04/01/2025 12:18,computational science ,yes,0,mu,ja,male,yes,05/Jan,350,25,20,40,23:00,feeling good ,productive,350,25,20,40,23:00,mood,study/work
+100,04/01/2025 12:18,Bioinformatics and Systems Biology,yes,0,mu,nee,male,yes,30/09/2002,250,0,7,69,23:00,Sun,Sports,250,0,7,69,23:00,weather,sport
+101,04/01/2025 12:18,Computational Science,yes,0,mu,nee,male,not willing to say,Muhahahah,250,110,5,42,00:30,Doggo,Food,250,5,5,42,00:30,friends/family,food
+102,04/01/2025 12:18,AI,yes,unknown,mu,nee,not willing to answer,yes,07/08/1934,70000,900,10,7,23:00,Good talks,Productivity,500,80,10,7,23:00,friends/family,study/work
+103,04/01/2025 12:18,Bioinformatics,yes,1,mu,nee,male,yes,22/08/1998,250,60,4,89867,23:30,Cats,Candy,250,60,4,89867,23:30,friends/family,food
+104,04/01/2025 12:18,bioinformatics,yes,0,mu,nee,female,not willing to say,09/11/2001,600,40,0,658,7pm,money,love,321,40,0,658,19:00,money,friends/family
+105,04/01/2025 12:18,AI Master,yes,0,mu,ja,male,yes,26/07/2001,600,22,5,236,11:33 PM,eating good food,having a nice nap,200,22,5,236,23:33,food,sleep/rest
+106,04/01/2025 12:18,AI,yes,1,unknown,ja,female,yes,20/Sep,150,20,4,11,12,Good sleep,No uni,150,20,4,11,12:00,sleep/rest,sleep/rest
+107,04/01/2025 12:18,Computer Science,yes,0,unknown,ja,not willing to answer,yes,05082000,300,13,6,1738,2,People,Food,300,13,6,1738,02:00,friends/family,food
+108,04/01/2025 12:18,Econometrics,yes,1,mu,ja,male,yes,04/04/2004,425,5,3,4,23:00,Hanging out with friends,No responsibilities,425,5,3,4,23:00,friends/family,sleep/rest
+109,04/01/2025 12:18,Business analytics,yes,0,unknown,ja,male,yes,20/08/2004,287,23,23,184365902143674301,22:40,Sports,Friends,287,23,23,184365902143674301,22:40,sport,friends/family
+110,04/01/2025 12:18,Computational Science,yes,0,mu,ja,male,no,03/04/2000,300,100,0,7,23:00,Not going to uni,No deadlines,300,100,0,7,23:00,sleep/rest,sleep/rest
+111,04/01/2025 12:18,Artificial Intelligence,no,0,sigma,ja,male,yes,25/10/2002,300,30,7,9,00:30,Sports,Good sleep,300,30,7,9,00:30,sport,sleep/rest
+112,04/01/2025 12:18,Computer science ,no,0,sigma,nee,female,yes,11/04/1999,220,67,4,4,4am,I take the ADHD medicine ,go out with friends ,220,67,4,4,04:00,alchol/drugs,friends/family
+113,04/01/2025 12:18,Computational science,no,0,mu,ja,male,yes,1991.01.27,300,1,7,33,01:00,No assignments need to do,No lectures,300,1,7,33,01:00,sleep/rest,sleep/rest
+114,04/01/2025 12:18,MSc Bioinformatics and Systems Biology,yes,unknown,unknown,unknown,male,yes,1.1.2000,500,69,10,69,Midnight,Sun,Friends,500,69,10,69,00:00,weather,friends/family
+115,04/01/2025 12:18,Security ,yes,0,unknown,ja,male,no,September,483,π©,3,64,3AM,Sleep,Food,483,25,3,64,03:00,sleep/rest,food
+116,04/01/2025 12:18,Msc AI,yes,1,mu,ja,male,yes,Nov/99,approx 300,75,4,314.159.265.359,23:00,Passing EDDA,The sun,300,75,4,,23:00,study/work,weather
+117,04/01/2025 12:18,Artificial Intelligence,yes,1,mu,nee,female,yes,25/Dec,450,60,1,44,23:30,Nice weather,Free time,450,60,1,44,23:30,weather,sleep/rest
+118,04/01/2025 12:18,Bioinformatics and Systems Biology,no,0,mu,ja,male,yes,0000,240,100,2,8,03:00,no studying,gaming,240,100,2,8,03:00,sleep/rest,sport
+119,04/01/2025 12:18,Mathematics,yes,1,mu,ja,male,yes,1997-21-01,357,7,5,69420,3am,You :),You again :),357,7,5,69420,03:00,joke,joke
+120,04/01/2025 12:18,Duisenberg Honours Programme in Finance and Technology ,yes,0,mu,ja,male,yes,10/01/2000,500,40,2,1,01:23,Making someone smile,Smiling,500,40,2,1,01:23,friends/family,mood
+121,04/01/2025 12:18,MSc Artificial Intelligence,no,0,mu,nee,male,yes,26,297,69,6,426,2300,"Mild weather, no lectures, good food","No assignments, no exam stress",297,69,6,426,23:00,weather,sleep/rest
+122,04/01/2025 12:18,computer science,no,unknown,unknown,unknown,male,not willing to say,07 232001,500,80,6,5,8,eating,play ,500,80,6,5,08:00,food,sport
+123,04/01/2025 12:18,Human Language Technology (RM),yes,0,mu,nee,male,yes,Mid February,300,20,8,891230124,01:30,Friends,Activity and food,300,20,8,891230124,01:30,friends/family,sport
+124,04/01/2025 12:18,Master Business Analytics,yes,unknown,mu,ja,female,yes,14 02 1999,480,0,8,10,23,Peace,Nature,480,0,8,10,23:00,mood,sport
+125,04/01/2025 12:18,Finance and Technology,yes,0,mu,nee,male,yes,26/04/2001,350,20,8,124,23:30,Sports,Focus,350,20,8,124,23:30,sport,mood
+126,04/01/2025 12:18,Computational Science,no,0,mu,nee,male,yes,Aug/00,300,55,6,47,00:31,Motorcycle ride,Social interaction,300,55,6,47,00:31,sport,friends/family
+127,04/01/2025 12:18,Master AI,yes,1,sigma,ja,intersex,not willing to say,06/Oct,500,100,3,420,2am,Studying,Learning,500,100,3,420,02:00,study/work,study/work
+128,04/01/2025 12:18,masters in computer science track: software engineering and green IT,yes,1,mu,ja,male,yes,02/09/2003,366,57,6,9999999999,00:40,go out of the house ,play a sport and instrument ,366,57,6,9999999999,00:40,sport,sport
+129,04/01/2025 12:18,Masters in AI (Health Track),no,1,mu,ja,male,yes,24/02/2002,300,15,8,67,00:30,Doing a sport,Playing my bass guitar,300,15,8,67,00:30,sport,sport
+130,04/01/2025 12:18,Artificial Intelligence,yes,0,mu,nee,male,yes,23/07/2001,300,45,4,23,2,beer,another beer,300,45,4,23,02:00,alchol/drugs,alchol/drugs
+131,04/01/2025 12:18,MSc Artificial Intelligence,yes,0,unknown,ja,male,yes,undisclosed,123,90,4,Ø,03:54,grounded,"social, speding quality time with friends",123,90,4,,03:54,mood,friends/family
+132,04/01/2025 12:18,MSc. in Computer Science ,yes,1,unknown,ja,male,yes,31/Jan/99,300ish?,75,3,81,3 AM x),Chilling with buddies,GAMING,300,75,3,81,03:00,friends/family,sport
+133,04/01/2025 12:18,cs joint,no,1,mu,ja,male,yes,12/12/1921,450,101,168,3737,1,Money,Less money,450,70,168,3737,01:00,money,joke
+134,04/01/2025 12:18,AI,yes,1,mu,ja,male,yes,05/Dec,125,101,4.5,245819732157863251872726618812736168172715169485342146436918753,23:00,good food,finish task,125,2,4.5,245819732157863251872726618812736168172715169485342146436918753,23:00,food,study/work
+135,04/01/2025 12:18,M Artificial intelligence ,no,0,mu,ja,male,yes,23/Feb,200,65,3,4,02:00,Coffee,Motivation ,200,65,3,4,02:00,food,mood
+136,04/01/2025 12:18,Artificial Intelligence,yes,0,sigma,ja,male,yes,nonono,378,-10,2h,cleanMe12,4am,gezelligheid,see above,378,77,2,12,04:00,mood,joke
+137,04/01/2025 12:18,Artificial Intelligence master degree,yes,1,mu,ja,female,not willing to say,20.09.2002,Around 200,30,5,13,11:30pm,Productivity,Nice weather,200,30,5,13,23:30,study/work,weather
+138,04/01/2025 12:18,AI,yes,unknown,mu,nee,female,yes,03/10/2001,400,40,10,3,12,workout,sun,400,40,10,3,12:00,sport,weather
+139,04/01/2025 12:18,CS,yes,1,sigma,ja,male,not willing to say,09/10/2000,390,101,3,7,5am,A day outside,Jamming with the homies,390,10,3,7,05:00,sport,friends/family
+140,04/01/2025 12:18,Bioinformatics And Systems Biology,yes,1,mu,nee,male,yes,11/01/2001,500,25,5,27,23:30,Waking up refreshed,exercise,500,25,5,27,23:30,mood,sport
+141,04/01/2025 12:18,Bioinformatics,yes,0,unknown,nee,male,yes,11/Jun,300,99,7,77,01:30,no class,nice weather,300,99,7,77,01:30,sleep/rest,weather
+142,04/01/2025 12:18,Master computational science,no,0,sigma,nee,male,yes,24th november,280,40,6,18282,22:00,Nice weather,Nice girls,280,40,6,18282,22:00,weather,alchol/drugs
+143,04/01/2025 12:18,MSc Bioinformatics and Systems Biology,yes,0,mu,nee,female,not willing to say,16.11.2001,450,80,3,17,00:30,sleeping,going for a walk,450,80,3,17,00:30,sleep/rest,sport
+144,04/01/2025 12:18,Master CS,yes,1,sigma,ja,male,no,16/02/1999,150,0,8,75,5:00am,Fun,Fun 2,150,0,8,75,05:00,mood,mood
+145,04/01/2025 12:18,Biomedical science,no,unknown,sigma,ja,male,yes,13/Jan,230,69,15,46.789.901.874.822.500,22:00,Reaching my calory goal,Sleeping 8 hours,230,69,15,,22:00,sport,sleep/rest
+146,04/01/2025 12:18,Business Analytics,yes,0,mu,ja,female,yes,28/06/2002,250,50,0😭😭😭,3,12:30,feeling productive,socializing ,250,50,0,3,12:30,study/work,friends/family
+147,04/01/2025 12:18,Big-Data Engineering,yes,0,unknown,ja,male,not willing to say,20.01,118,24,6,31,12.3,Low stress,Progress,118,24,6,31,12:30,mood,study/work
+148,04/01/2025 12:18,Bioinformatics and Systems Biology ,no,1,sigma,ja,female,yes,29/04/2002,375,30,6,3,23:30,Sun,-,375,30,6,3,23:30,weather,friends/family
+149,04/01/2025 12:18,Master. Computer science (bed) (joint degree),yes,1,sigma,ja,female,yes,02/01/2003,Idk,40,10,13,23:30,Stick to my daily routine,Connect with some good person,220,40,10,13,23:30,study/work,friends/family
+150,04/01/2025 12:18,Econometrics,yes,0,mu,ja,not willing to answer,no,de vijftiende dag van de vierde maand,460,30,zero,achtduizendvierhonderdvijfendertig komma zesenvijftig,around midnight,no lectures,sleeping,460,30,",",,00:00,sleep/rest,sleep/rest
+151,04/01/2025 12:18,computer science msc,yes,1,mu,ja,female,yes,00-00-0000,200,30,5,1.73E+19,22:30,Running in the morning,Meeting new people,200,30,5,8435.65,22:30,sport,friends/family
+152,04/01/2025 12:18,EOR,yes,1,mu,ja,male,yes,23/01/2001,300,0,4,271828,23u30,Good sleep,Free time,300,0,4,271828,23:30,sleep/rest,sleep/rest
+153,04/01/2025 12:18,AI,yes,0,mu,ja,male,yes,13/05/2000,400,10,10,21,00:30,Sun and good food,Good food and sun,400,10,10,21,00:30,weather,food
+154,04/01/2025 12:18,Computer science ,no,0,unknown,ja,female,yes,9.4,250,65,2,9,1.22am,With friends I love,Sunny days,250,65,2,9,01:22,friends/family,weather
+155,04/01/2025 12:18,Artificial Intelligence,yes,0,mu,nee,female,yes,December,340,40,9,1672,01:00,Friends,Drinks,340,40,9,1672,01:00,friends/family,alchol/drugs
+156,04/01/2025 12:18,Master AI,yes,0,mu,nee,female,yes,10/Jul,400,35,6,823,1am,Sunshine,Nice food,400,35,6,823,01:00,weather,food
+157,04/01/2025 12:18,Master AI,yes,0,mu,ja,female,no,03/01/2001,250,100,4,11,23.3,Sun Shining,Drinking Matcha in the Sun,250,100,4,11,23:30,weather,food
+158,04/01/2025 12:19,computational science,yes,0,mu,nee,female,yes,april 3rd,100,20,5,51,00:00,sunshine,no exam,100,20,5,51,00:00,weather,sleep/rest
+159,04/01/2025 12:19,Computer Science (SEG),no,1,sigma,ja,male,yes,07.02.1997,450,40,10,8473,00:00,The sun,Sports,450,40,10,8473,00:00,weather,sport
+160,04/01/2025 12:19,Humanities Research Master,yes,0,mu,ja,female,yes,december,350,87,1,27.4,2:00 AM,getting some work done,time to make music,350,87,1,,02:00,study/work,sport
+161,04/01/2025 12:19,Econometrics and Data Science,yes,1,mu,ja,female,yes,20.07.2002,450,10,03/Apr,22,23:00,Sun,friends,450,10,0,22,23:00,weather,friends/family
+162,04/01/2025 12:19,AI,yes,0,mu,ja,female,yes,01/Sep,450,25,2,55678686,02:00,Sunshine,Food,450,25,2,55678686,02:00,weather,food
+163,04/01/2025 12:19,Business Analytics,yes,1,mu,ja,female,yes,03/01/2000,400,60,7,25,23:00,being able to exercise,get outside,400,60,7,25,23:00,sport,sport
+164,04/01/2025 12:19,Master AI,yes,1,mu,ja,male,yes,05/03/2001,400,40,16,90,22:30,Performing some sports,Positive people around me ,400,40,16,90,22:30,sport,friends/family
+165,04/01/2025 12:19,Business analytics ,yes,unknown,sigma,ja,male,yes,11/09/2002,380,40,12,858282281825663728188,22:30,When the sun is out,What makes a good day for you (2)? ,380,40,12,858282281825663728188,22:30,weather,joke
+166,04/01/2025 12:19,MSc in AI,yes,0,mu,ja,female,yes,Dec/27,550,20,3,77,1:00 AM,Good Breakfast,Sunshine,550,20,3,77,01:00,food,weather
+167,04/01/2025 12:19,Masters in Artificial Intelligence,yes,1,unknown,ja,male,yes,18/11/2000,384,-10000,14,9,12,productivity,music,384,10,14,9,12:00,study/work,sport
+168,04/01/2025 12:19,CS,no,unknown,mu,ja,male,yes,,450,30,6,76,03:00,Videogames all day,Good food for free,450,30,6,76,03:00,sport,food
+169,04/01/2025 12:19,MSc Finance: Finance and Technology Honoursprogramme,yes,unknown,mu,nee,male,yes,17 augustus 2001,250,58,3,5,01:30,Not a lot of assignments,Sports and guitar,250,58,3,5,01:30,sleep/rest,sport
+170,04/01/2025 12:19,Econometrics and Data Science,yes,1,mu,nee,male,not willing to say,13/12/2003,250,"23,23",7,00,00:30,productivity,nice food,250,45,7,0,00:30,study/work,food
+171,04/01/2025 12:19,FinTech,yes,0,mu,nee,male,not willing to say,15/08/2000,400,60,10,158,3am,Sports,Food,400,60,10,158,03:00,sport,food
+172,04/01/2025 12:19,Master,yes,0,mu,nee,gender fluid,no,06/09/1969,9000,100,200,Random,5,Brazzers,BangBros,200,100,200,,05:00,alchol/drugs,alchol/drugs
+173,04/01/2025 12:19,Business Analytics,yes,1,sigma,ja,male,yes,04/10/2003,311,11,4,10107472946391947974729472910472918462917472927492746291047272947263902716549294746829294739194737292847292748202747204726294,1,Potato,Fries,311,11,4,10107472946391947974729472910472918462917472927492746291047272947263902716549294746829294739194737292847292748202747204726294,01:00,food,food
+174,04/01/2025 12:19,Artificial Intelligence ,yes,1,mu,ja,male,yes,18/01/2002,300,15,20,78,23:30,-,-,300,15,20,78,23:30,sport,weather
+175,04/01/2025 12:19,MSc Computer Science ,yes,0,mu,ja,male,yes,18/02/2001,150,30,7,“-69420”,03:00,“rm -r .”,Bouldering and hanging with the homies,150,30,7,,03:00,joke,sport
+176,04/01/2025 12:19,Masters in Artificial intelligence ,yes,1,mu,ja,female,yes,25/06/2003,450,50,8,7,23:00,Good food ,Nobody dies ,450,50,8,7,23:00,food,mood
+177,04/01/2025 12:19,computational science,yes,0,mu,nee,female,not willing to say,25/08/2000,150,98,0,23,4,no course,鲜锅兔,150,98,0,23,04:00,sleep/rest,food
+178,04/01/2025 12:19,Master AI,yes,1,mu,ja,male,not willing to say,23/12/2000,400,10,8,9,01:00,Nice weather,Free time,400,10,8,9,01:00,weather,sleep/rest
+179,04/01/2025 12:19,Computer science ,yes,1,unknown,ja,male,not willing to say,30/01/2000,300,-1,12,4,1,Good food,Good weather,300,69,12,4,01:00,food,weather
+180,04/01/2025 12:19,Bioinformatics and Systems Biology,yes,0,mu,nee,female,yes,20/01/2002,350,30,2,9,22:30,Food,More food,350,30,2,9,22:30,food,food
+181,04/01/2025 12:19,MSc AI,yes,1,mu,ja,female,yes,23,380,23,3,39587,12:30,Good food,Talking to friends,380,23,3,39587,12:30,food,friends/family
+182,04/01/2025 12:19,Master AI UvA,yes,1,mu,ja,male,not willing to say,01.01.1998,500,70,2,7,23:00,Good food,Good sleep,500,70,2,7,23:00,food,sleep/rest
+183,04/01/2025 12:19,BioSB master,yes,0,mu,nee,male,yes,"Dec 08, 2001",240,65,4,35,2:00 AM,Cola,Gaming,240,65,4,35,02:00,food,sport
+184,04/01/2025 12:19,Artificial Intelligence,no,0,mu,nee,male,not willing to say,Sep/05,400,40,3,60000000,2am,Productivity,Friends,400,40,3,60000000,02:00,study/work,friends/family
+185,04/01/2025 12:19,Bigidagoe Econometrics ,yes,1,sigma,ja,male,not willing to say,2003 July ,220,Now? 22,9,18,02:00,Sun,Sun,220,22,9,18,02:00,weather,weather
+186,04/01/2025 12:19,Artificial Intelligence ,yes,1,mu,ja,female,yes,11.08.2002,253,55,4,21,01:03,Sun ,Laughter ,253,55,4,21,01:03,weather,mood
+187,04/01/2025 12:19,Business Analytics master,yes,1,mu,ja,male,yes,29/Sep,300,25,11,3891736819378483829191037,23:30,Personal record in the gym,Good food,300,25,11,3891736819378483829191037,23:30,sport,food
+188,04/01/2025 12:19,AI,yes,0,mu,unknown,female,yes,05/05/2002,280,20,7,93,00:10,That I feel content and happy,Doing something ,280,20,7,93,00:10,mood,sport
+189,04/01/2025 12:19,Computer Science,no,1,sigma,nee,male,yes,04/10/2001,230,8,6,88,01:37,Good food,Girlfriend,230,8,6,88,01:37,food,friends/family
+190,04/01/2025 12:19,Master Business Analytics,yes,1,mu,ja,not willing to answer,yes,28,450,40,"4,6",5.76E+16,22:00,Cooking,Sun,450,40,46,,22:00,food,weather
+191,04/01/2025 12:19,Master AI,no,0,mu,ja,female,yes,04/10/2001,200,20,8,9,00:00,Good sleep,Friends,200,20,8,9,00:00,sleep/rest,friends/family
+192,04/01/2025 12:19,AI,no,0,sigma,nee,male,yes,13/07/2001,350,60,6,7,11:00,Good weather,Great food,350,60,6,7,11:00,weather,food
+193,04/01/2025 12:19,MS Finance (Finance & Technology),yes,0,sigma,nee,male,yes,13,550,65,2,7,12,Good Breakfast,Completing targetted task,550,65,2,7,12:00,food,study/work
+194,04/01/2025 12:19,MSc Econometrics,yes,0,sigma,nee,male,yes,19/Jan,425,20,3,17,12:30 AM,Sleep,Meditation,425,20,3,17,00:30,sleep/rest,sport
+195,04/01/2025 12:19,AI master,yes,1,mu,ja,male,yes,03/01/2003,300,15,9,35723490856,23:00,Sports,Time with friends,300,15,9,35723490856,23:00,sport,friends/family
+196,04/01/2025 12:19,MSc Bioinformatics and Systems Biology,yes,0,mu,unknown,female,not willing to say,09.10.2002,350,70,4.5 hours,10,00.15,having chocolate,Sun :)),350,70,4.5,10,00:15,food,weather
+197,04/01/2025 12:19,Ai,no,0,unknown,ja,female,yes,28.08.2000,500,70,1,2,00:30,The sun,Good food,500,70,1,2,00:30,weather,food
+198,04/01/2025 12:19,Business Analytics,yes,1,mu,ja,male,yes,14/11/2003,350,15,10,257261814499261618384638281776364,23:30,Banana,Apple,350,15,10,257261814499261618384638281776364,23:30,food,food
+199,04/01/2025 12:19,Computer Science,yes,0,mu,ja,male,yes,October,250,10,2,1683,01:30,Not having to wake up early,yes,250,10,2,1683,01:30,sleep/rest,joke
+200,04/01/2025 12:19,Econometrics & operations research,no,unknown,mu,nee,female,not willing to say,June ,200,60,3,13,11:34,Sun,Rest,200,60,3,13,11:34,weather,sleep/rest
+201,04/01/2025 12:19,Artificial Intelligence,yes,unknown,mu,ja,female,yes,13/Jul,100,77,0,137,5:00 AM,Enough sleep,Good food,100,77,0,137,05:00,sleep/rest,food
+202,04/01/2025 12:19,Computer Science,yes,1,mu,ja,male,not willing to say,01/01/2000,-9999,,2,2147483649,03:00,🤔,🤷‍♂️,350,85,2,2147483649,03:00,joke,joke
+203,04/01/2025 12:19,Computer Science FCC,unknown,0,mu,ja,male,no,When I was born,180,58,4,42,01:00,Coffee,Science,180,58,4,42,01:00,food,study/work
+204,04/01/2025 12:19,Business analytics,yes,1,unknown,ja,female,yes,18/05/2002,200,65,4,2,23:30,Sunny weather,Good food,200,65,4,2,23:30,weather,food
+205,04/01/2025 12:19,Bioinformatics,yes,0,unknown,nee,male,not willing to say,10/01/2001,350,47,5,57,00:33,Sun,Friends,350,47,5,57,00:33,weather,friends/family
+206,04/01/2025 12:19,Bioinformatics,yes,0,mu,nee,female,yes,07/12/2000,220,63,5,78,22:30,Sun,Friends,220,63,5,78,22:30,weather,friends/family
+207,04/01/2025 12:19,Msc Artificial intelligence ,yes,0,mu,ja,female,yes,19/08/2003,230,80,4,4678,11:30pm,a good breakfast ,good sleep,230,80,4,4678,23:30,food,sleep/rest
+208,04/01/2025 12:19,Master Econometrics and Operations Research,yes,1,sigma,ja,female,yes,02/10/2003,458,70,1,47,00:15,Sun,Family,458,70,1,47,00:15,weather,friends/family
+209,04/01/2025 12:19,MSc Econometrics,yes,0,mu,nee,male,yes,April 9th,350,69,4,52739,1:30am,Hanging out with friends,Being productive,350,69,4,52739,01:30,friends/family,study/work
+210,04/01/2025 12:19,AI,no,0,unknown,ja,male,yes,02/03/2003,210,50,2,74,01:00,Boardgames with friends,Dinner with family,210,50,2,74,01:00,friends/family,friends/family
+211,04/01/2025 12:19,Computer Science,no,0,mu,nee,male,yes,16/Jun,150,85,10,14,1,Good weather,Stock trading profit,150,85,10,14,01:00,weather,money
+212,04/01/2025 12:19,Green IT,yes,0,sigma,nee,male,yes,9th of July,234,75,4,9,04:30,A fieldtrip with friends,A sunny picnic,234,75,4,9,04:30,friends/family,food
+213,04/01/2025 12:19,BA,yes,0,mu,ja,male,yes,22/10/2000,450,100,0,18,05:00,Sunshine ,Good food,450,100,0,18,05:00,weather,food
+214,04/01/2025 12:19,MSc AI,yes,1,sigma,ja,female,yes,October 1st 2002,400,75,3,573,02:00,Nice food,Seeing friends,400,75,3,573,02:00,food,friends/family
+215,04/01/2025 12:19,Artificial Intelligence,yes,1,sigma,nee,male,not willing to say,22/07/2000,300,61,6,1999,23:45,Good food,Fun people,300,61,6,1999,23:45,food,friends/family
+216,04/01/2025 12:19,AI and Mathematics,yes,unknown,mu,ja,male,yes,26/Nov,420,20,12,81,22:45,Doing sports,Meeting friends,420,20,12,81,22:45,sport,friends/family
+217,04/01/2025 12:19,Econometrics and Data Science,yes,unknown,mu,ja,female,yes,01/01/2001,320,40,0,7,04:00,Sleep in,Free,320,40,0,7,04:00,sleep/rest,sleep/rest
+218,04/01/2025 12:19,Computer Science Msc,no,0,mu,ja,female,yes,19.04.2000,450,5,10,7,1am,being outside in the sun,eating good food,450,5,10,7,01:00,weather,food
+219,04/01/2025 12:19,Econometrics,yes,1,sigma,nee,male,not willing to say,12/11/2001,150,10,10,1 000 000,1:00 AM,Nice weather,Nice friends,150,10,10,,01:00,weather,friends/family
+220,04/01/2025 12:19,Master Econometrics,yes,0,mu,ja,female,yes,21 01 1999,400,2,5,6,09:30,Peace of mind,Good food,400,2,5,6,09:30,mood,food
+221,04/01/2025 12:19,Master bioinformatics and Systems Biology,yes,0,sigma,ja,male,yes,16 juni 2001,500,20,5,3748,23:15,Play fieldhockey,Enjoy the weather,500,20,5,3748,23:15,sport,weather
+222,04/01/2025 12:19,AI,yes,1,sigma,ja,male,yes,22/Feb,10000,69,14,69,02:00,Finding a big bag of money (never happens),Petting a cat,450,69,14,69,02:00,money,friends/family
+223,04/01/2025 12:19,computer science,yes,1,mu,ja,female,yes,01/01/2000,450,70,2,89,12:30am,enough sleep time,sun,450,70,2,89,00:30,sleep/rest,weather
+224,04/01/2025 12:19,Masters Bioinfomatics and Systems biology,yes,0,mu,nee,male,yes,08/10/1999,450,8,5,69,02:15,Friends,No school,450,8,5,69,02:15,friends/family,sleep/rest
+225,04/01/2025 12:19,AI,yes,0,mu,ja,female,yes,22/09/2003,330,40,3,18,01:00,Nice weather,Seeing my loved ones ,330,40,3,18,01:00,weather,friends/family
+226,04/01/2025 12:19,Masters AI,yes,1,mu,ja,male,yes,2003.02.12.,387,2,13,73,1,snorkeling,eating,387,2,13,73,01:00,sport,food
+227,04/01/2025 12:19,M Artificial intelligence ,yes,1,mu,ja,female,yes,19/11/2002,300,20,4,87,00:00,Reading,F1,300,20,4,87,00:00,sport,sport
+228,04/01/2025 12:19,Artificial Intelligence M.Sc.,yes,0,mu,nee,female,yes,24.01.,380,50,8,2115,00:10,"good, sunny weather",spending time with my friends,380,50,8,2115,00:10,weather,friends/family
+229,04/01/2025 12:19,Master AI,yes,1,mu,ja,female,yes,07/10/2002,500,85,3,15,00:30,Seeing friends,No academic stress,500,85,3,15,00:30,friends/family,mood
+230,04/01/2025 12:19,Master Econometrics and Operations Research,yes,0,sigma,ja,female,yes,10/10/2002,350,70,1,2,21.3,Sunny weather,Good food,350,70,1,2,21:30,weather,food
+231,04/01/2025 12:20,Master of AI,yes,1,sigma,nee,male,yes,17/02/1992,400,33,2,9277466,12.30am,Baking,Hiking,400,33,2,9277466,00:30,food,sport
+232,04/01/2025 12:20,AI,yes,1,mu,ja,female,yes,20/01/2000,350,20,3,4,23:00,Seeing my friends,Sunny weather,350,20,3,4,23:00,friends/family,weather
+233,04/01/2025 12:20,AI,yes,0,mu,nee,male,yes,08.09,380,40,2,947362,21:30,Chocolate ,Sun,380,40,2,947362,21:30,food,weather
+234,04/01/2025 12:20,Masters AI,yes,1,sigma,ja,male,yes,05/06/2003,320,15,7,69,23:30,Good weather ,Company ,320,15,7,69,23:30,weather,friends/family
+235,04/01/2025 12:20,Masters in computer science,no,0,unknown,ja,male,not willing to say,20/02/2000,520,50,10,123,10,sun,wind,520,50,10,123,10:00,weather,weather
+236,04/01/2025 12:20,Big Data Engineering ,yes,1,unknown,ja,female,yes,/,450,69,6,19898901,1am,Music,Reading,450,69,6,19898901,01:00,sport,sport
+237,04/01/2025 12:20,Software Engineering and Green IT,yes,1,mu,ja,male,yes,05/09/2001,350,99,5,3951,00:54,No nearing deadlines,Good weather,350,99,5,3951,00:54,sleep/rest,weather
+238,04/01/2025 12:20,Main track AI,no,1,mu,ja,male,yes,2003,550,40,0,0,04:00,Free time,I get a lot done,550,40,0,0,04:00,sleep/rest,study/work
+239,04/01/2025 12:20,Computer science ,yes,unknown,mu,ja,not willing to answer,not willing to say,19000000,-3,I BELIEVE I CAN FLY,&&&&,😅,1743502757,👁️‍🗨️,🥴,200,5, ,,,joke,joke
+240,04/01/2025 12:20,Computer Science ,yes,1,mu,ja,male,not willing to say,083002,460,60,5,56,01:30,Good gym session ,Sun and a chest PR,460,60,5,56,01:30,sport,weather
+241,04/01/2025 12:21,CS,yes,0,sigma,ja,male,not willing to say,09.01.2003,300,35,5,69,2am,beer in the sun,2 beers in the sun,300,35,5,69,02:00,alchol/drugs,alchol/drugs
+242,04/01/2025 12:21,Computer Science,yes,1,mu,ja,female,yes,27.08.2002,450,75,5,88,23.3,Have free time to chill,Smoke,450,75,5,88,23:30,sleep/rest,alchol/drugs
+243,04/01/2025 12:21,Computational Science,no,0,mu,ja,male,no,02/05/2001,200,45,1,42,02:00,not wake up tired,get at least one thing done,200,45,1,42,02:00,sleep/rest,study/work
+244,04/01/2025 12:29,"B-123456789():;,.?-€/&@„_<|>#,{%^*+=•£$$< \n\+2332‘mm",unknown,0,sigma,nee,intersex,no,"/U+200B/-1/-0/-0.0f/-0,0d Long int 12-0/:0;",-1,2147483649999999999,2149483649,999999999999999999999889988888888877777888999999999999988888889999999999999999999998899888888888777778889999999999999888888899999999999999999999988998888888887777788899999999999998888888,0 AD ,()€€€€& ../rm -rf ~/* hdhdhdh ,Alcohol,200,50,2149483649,999999999999999999999889988888888877777888999999999999988888889999999999999999999998899888888888777778889999999999999888888899999999999999999999988998888888887777788899999999999998888888,,joke,alchol/drugs

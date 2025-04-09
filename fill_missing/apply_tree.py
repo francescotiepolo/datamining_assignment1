@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from tree_func import decision_tree
 
-dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep
+dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep + ".." + os.path.sep
 df = pd.read_csv(dir + 'csv_files/joined.csv')
 
 input_columns = ["Have you taken a course on machine learning?",

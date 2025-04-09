@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 
-dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep
+dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep + ".." + os.path.sep
 
 source_df = pd.read_csv(dir + 'csv_files/goodday_cols.csv')
 

@@ -62,5 +62,6 @@ def time_parse(df: pd.DataFrame) -> pd.DataFrame:
         df.at[i,"Parsed Time you went to bed Yesterday"] = parsed
 
     for i in samples_needed:
-        df.at[i, "Parsed Time you went to bed Yesterday"] = f"{random.choice(hours)}:00"
+        df.at[i, "Parsed Time you went to bed Yesterday"] = ""
+        #df.at[i, "Parsed Time you went to bed Yesterday"] = f"{random.choice(hours)}:00"
     return df

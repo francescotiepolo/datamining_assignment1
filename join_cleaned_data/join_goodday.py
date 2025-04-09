@@ -4,12 +4,12 @@ import os
 
 dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep
 
-source_df = pd.read_csv(dir + 'goodday_cols.csv')
+source_df = pd.read_csv(dir + 'csv_files/goodday_cols.csv')
 
 goodday_columns = source_df.iloc[:, -2:]
 
 
-destination_df = pd.read_csv(dir + 'ODI-2025-parsed.csv', sep=';')
+destination_df = pd.read_csv(dir + 'csv_files/ODI-2025-parsed.csv', sep=';')
 
 goodday_columns.reset_index(drop=True, inplace=True)
 destination_df.reset_index(drop=True, inplace=True)
@@ -17,6 +17,4 @@ destination_df.reset_index(drop=True, inplace=True)
 
 destination_df = pd.concat([destination_df, goodday_columns], axis=1)
 
-destination_df.to_csv(dir + 'joined.csv', index=False)
-
-print("The file has been saved as 'joined.csv' in the current directory.")
+destination_df.to_csv(dir + 'csv_files/joined.csv', index=False)

@@ -82,7 +82,7 @@ def sports_parse(df: pd.DataFrame) -> pd.DataFrame:
                 sports.append(num)
         else:
             num = float(parsed)
-            if num < 0:
+            if num < 0 or num >= 168:
                 samples_needed.append(i)
             else:
                 sports.append(num)

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import pandas as pd
 import os
-from tree_func import decision_tree
+from tree_func import decision_tree, random_forest
 
 dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep + ".." + os.path.sep
 df = pd.read_csv(dir + 'csv_files/joined.csv')

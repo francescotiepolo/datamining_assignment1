@@ -14,5 +14,6 @@ input_columns = ["Have you taken a course on machine learning?",
 
 df = decision_tree(df, "category_goodday_1", input_columns)
 df = decision_tree(df, "category_goodday_2", input_columns)
-
+df = decision_tree(df, "What programme are you in?", input_columns)
+df = decision_tree(df, "When is your birthday (date)?", input_columns)
 df.to_csv(dir + 'csv_files/filled.csv', index=False)

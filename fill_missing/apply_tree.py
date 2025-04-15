@@ -15,7 +15,7 @@ input_columns = ["Have you taken a course on machine learning?",
 
 df = decision_tree(df, "category_goodday_1", input_columns)
 df = decision_tree(df, "category_goodday_2", input_columns)
-df = decision_tree(df, "Parsed Time you went to bed Yesterday", input_columns)
+df = random_forest(df, "Parsed Time you went to bed Yesterday", input_columns)
 df = random_forest(df, "Parsed Give a random number", input_columns)
 df = random_forest(df, "Parsed How many hours per week do you do sports (in whole hours)?", input_columns)
 df = random_forest(df, "Parsed What is your stress level (0-100)?", input_columns)

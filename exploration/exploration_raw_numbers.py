@@ -14,7 +14,6 @@ def histogram(df: pd.DataFrame, column: str, lower_bound: float, upper_bound: fl
         try:
             value = float(row[column].replace(",", "."))
             if cut_off is not None and value > cut_off:
-                invalid_count += 1
                 outside.append(value)
             else:
                 data.append(value)
@@ -27,7 +26,10 @@ def histogram(df: pd.DataFrame, column: str, lower_bound: float, upper_bound: fl
     plt.savefig(f"{dir}most_{suffix}.pdf")
     filtered = list(filter(lambda x: x >= lower_bound and x <= upper_bound, data))
     plt.clf()
-    plt.hist(filtered)
+    if suffix == "students":
+        plt.hist(filtered, bins=list(range(0, 650, 50)))
+    else:
+        plt.hist(filtered)
     plt.title(f"Strict {column}")
     plt.savefig(f"{dir}filtered_{suffix}.pdf")
     print(suffix)

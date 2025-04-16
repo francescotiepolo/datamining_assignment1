@@ -19,6 +19,19 @@ destination_df = pd.read_csv(dest_path, sep=',')
 
 for src_col, dest_col in COLUMNS_TO_SUBSTITUTE.items():
     destination_df[dest_col] = source_df[src_col]
+
+destination_df["What programme are you in?"] = (
+    destination_df["What programme are you in?"]
+    .astype(str)
+    .str.strip()
+    .replace("", pd.NA)
+)
+destination_df["When is your birthday (date)?"] = (
+    destination_df["When is your birthday (date)?"]
+    .astype(str)
+    .str.strip()
+    .replace("", pd.NA)
+)
     
 output_path = os.path.join(csv_dir, 'joined.csv')
 destination_df.to_csv(output_path, index=False, sep=',')

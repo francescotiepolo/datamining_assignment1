@@ -26,6 +26,6 @@ df = random_forest(df, "Parsed Give a random number", input_columns)
 df = random_forest(df, "Parsed How many hours per week do you do sports (in whole hours)?", input_columns)
 df = random_forest(df, "Parsed What is your stress level (0-100)?", input_columns)
 df = random_forest(df, "Parsed How many students do you estimate there are in the room?", input_columns)
-#df = random_forest(df, "What is your stress level (0-100)?", input_columns)
+df = random_forest(df, "Parsed Give a random number", input_columns)
 
 df.to_csv(dir + 'csv_files/filled.csv', index=False)

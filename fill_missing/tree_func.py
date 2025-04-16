@@ -37,15 +37,16 @@ def random_forest(df, output, input):
 
     encoder = OneHotEncoder(handle_unknown='ignore')
     X_known_encoded = encoder.fit_transform(X_known)
-    X_unknown_encoded = encoder.transform(X_unknown)
 
-    forest = RandomForestRegressor(
-        n_estimators=100,
-        max_depth=None,
-        random_state=0
-    )
-    forest.fit(X_known_encoded, Y_known)
-    Y_pred = forest.predict(X_unknown_encoded)
-
-    df_copy.loc[unknown, output] = Y_pred
+    if X_unknown.shape[0] > 0:
+        X_unknown_encoded = encoder.transform(X_unknown)
+        forest = RandomForestRegressor(
+            n_estimators=100,
+            max_depth=None,
+            random_state=0
+        )
+        forest.fit(X_known_encoded, Y_known)
+        Y_pred = forest.predict(X_unknown_encoded)
+        df_copy.loc[unknown, output] = Y_pred
+        
     return df_copy

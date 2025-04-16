@@ -14,13 +14,15 @@ def decision_tree(df, output, input):
 
     encoder = OneHotEncoder(handle_unknown='ignore')
     X_known_encoded = encoder.fit_transform(X_known)
-    X_unknown_encoded = encoder.transform(X_unknown)
 
-    tree = DecisionTreeClassifier(max_depth=5, random_state=0)
-    tree.fit(X_known_encoded, Y_known)
-    Y_pred = tree.predict(X_unknown_encoded)
-
-    df_copy.loc[unknown, output] = Y_pred
+    if X_unknown.shape[0] > 0:
+        X_unknown_encoded = encoder.transform(X_unknown)
+        from sklearn.tree import DecisionTreeClassifier
+        tree = DecisionTreeClassifier(max_depth=5, random_state=0)
+        tree.fit(X_known_encoded, Y_known)
+        Y_pred = tree.predict(X_unknown_encoded)
+        df_copy.loc[unknown, output] = Y_pred
+    
     return df_copy
 
 def random_forest(df, output, input):

@@ -14,9 +14,13 @@ input_columns = ["Have you taken a course on machine learning?",
                  "I have used ChatGPT to help me with some of my study assignments "]
 
 df = decision_tree(df, "category_goodday_1", input_columns)
+input_columns.append("category_goodday_1")
 df = decision_tree(df, "category_goodday_2", input_columns)
+input_columns.append("category_goodday_2")
 df = decision_tree(df, "What programme are you in?", input_columns)
+input_columns.append("What programme are you in?")
 df = decision_tree(df, "When is your birthday (date)?", input_columns)
+input_columns.append("When is your birthday (date)?")
 df = random_forest(df, "Parsed Time you went to bed Yesterday", input_columns)
 df = random_forest(df, "Parsed Give a random number", input_columns)
 df = random_forest(df, "Parsed How many hours per week do you do sports (in whole hours)?", input_columns)

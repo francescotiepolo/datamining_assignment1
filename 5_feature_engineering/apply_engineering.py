@@ -1,10 +1,11 @@
 import pandas as pd
-import numpy as np
-from datetime import datetime
 import os
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 from engineering_funcs import normalize_column, sleep_deviation
 
+# Load the dataset
 dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep + ".." + os.path.sep
 df = pd.read_csv(dir + 'csv_files/filled.csv')
 
@@ -23,13 +24,8 @@ df['Norm.Sport'] = normalize_column(df['Parsed How many hours per week do you do
 # Calculate the WellBeing score
 df['WellBeing'] = (df['Norm.SleepDeviation'] + df['Norm.Stress'] + df['Norm.Sport']) / 3
 
-
+# Visualize new metric
 print(df['WellBeing'].describe())
-df.to_csv(dir + 'csv_files/well_being.csv', index=False)
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 plt.figure(figsize=(8, 5))
 sns.histplot(df["WellBeing"], bins=20, kde=True, color="skyblue")
 plt.title("Distribution of WellBeing Scores")
@@ -37,3 +33,5 @@ plt.xlabel("WellBeing Score")
 plt.ylabel("Frequency")
 plt.grid(True)
 plt.savefig(dir + 'figs/well_being_distribution.png', dpi=300)
+
+df.to_csv(dir + 'csv_files/well_being.csv', index=False)

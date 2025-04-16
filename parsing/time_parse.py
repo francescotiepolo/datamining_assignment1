@@ -1,6 +1,5 @@
 import pandas as pd
 import re
-import random
 
 def ampm_to_24(hour, am):
     if am:
@@ -18,13 +17,10 @@ def time_parse(df: pd.DataFrame) -> pd.DataFrame:
     df["Parsed Time you went to bed Yesterday"] = df["Time you went to bed Yesterday"]
     whitelist_set = set("0123456789amp :-.hu")
     samples_needed = []
-    hours = []
     for i, row in df.iterrows():
         parsed: str = row["Parsed Time you went to bed Yesterday"].strip().lower()
         if "midnight" in parsed:
-            parsed = "00:00"
-            hours.append(parsed.split(":")[0])
-            df.at[i,"Parsed Time you went to bed Yesterday"] = parsed
+            df.at[i,"Parsed Time you went to bed Yesterday"] = 0.0
             continue
         parsed = ''.join([c for c in parsed if c in whitelist_set]).strip()
         if re.match("^((2[0-4])|((0|1)\d))([0-6]\d)$", parsed) is not None:
@@ -58,10 +54,11 @@ def time_parse(df: pd.DataFrame) -> pd.DataFrame:
         else:
             samples_needed.append(i)
             continue
-        hours.append(parsed.split(":")[0])
-        df.at[i,"Parsed Time you went to bed Yesterday"] = parsed
+        split = parsed.split(":")
+        hour = float(split[0])
+        minute = float(split[1])/60.0
+        df.at[i,"Parsed Time you went to bed Yesterday"] = hour + minute
 
     for i in samples_needed:
         df.at[i, "Parsed Time you went to bed Yesterday"] = ""
-        #df.at[i, "Parsed Time you went to bed Yesterday"] = f"{random.choice(hours)}:00"
     return df

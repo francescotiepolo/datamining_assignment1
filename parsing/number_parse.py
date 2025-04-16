@@ -35,7 +35,6 @@ def approximate_parse(df: pd.DataFrame) -> pd.DataFrame:
 
     for i in samples_needed:
         df.at[i, "Parsed How many students do you estimate there are in the room?"] = ""
-        df.at[i, "Parsed How many students do you estimate there are in the room?"] = random.choice(guess)
     return df
 
 def stress_parse(df: pd.DataFrame) -> pd.DataFrame:
@@ -58,7 +57,6 @@ def stress_parse(df: pd.DataFrame) -> pd.DataFrame:
 
     for i in samples_needed:
         df.at[i, "Parsed What is your stress level (0-100)?"] = ""
-        df.at[i, "Parsed What is your stress level (0-100)?"] = random.choice(stress)
     return df
 
 def sports_parse(df: pd.DataFrame) -> pd.DataFrame:
@@ -82,7 +80,7 @@ def sports_parse(df: pd.DataFrame) -> pd.DataFrame:
                 sports.append(num)
         else:
             num = float(parsed)
-            if num < 0:
+            if num < 0 or num >= 168:
                 samples_needed.append(i)
             else:
                 sports.append(num)
@@ -90,7 +88,6 @@ def sports_parse(df: pd.DataFrame) -> pd.DataFrame:
 
     for i in samples_needed:
         df.at[i, "Parsed How many hours per week do you do sports (in whole hours)?"] = ""
-        df.at[i, "Parsed How many hours per week do you do sports (in whole hours)?"] = random.choice(str(sports))
     return df
 
 def random_number_parse(df: pd.DataFrame) -> pd.DataFrame:
@@ -116,5 +113,4 @@ def random_number_parse(df: pd.DataFrame) -> pd.DataFrame:
 
     for i in samples_needed:
         df.at[i, "Parsed Give a random number"] = ""
-        #df.at[i, "Parsed Give a random number"] = random.choice(str(guess))
     return df

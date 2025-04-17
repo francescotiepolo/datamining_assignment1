@@ -25,14 +25,15 @@ input_columns = ["What programme are you in?",
                 "What is your gender?",
                 "I have used ChatGPT to help me with some of my study assignments ",
                 "When is your birthday (date)?",
-                "WellBeing",
-                "category_goodday_1",]
+                "category_goodday_1",
+                "WellBeing"]
 
 X = df[input_columns]
 y = df[target]
 
 # Encode categorical features
-for col in X.select_dtypes(include=["object"]).columns:
+cat_cols = X.select_dtypes(include=["object", "category"]).columns # Select categorical columns
+for col in cat_cols:
     X[col] = LabelEncoder().fit_transform(X[col].astype(str))
 
 # Encode target variable

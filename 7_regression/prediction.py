@@ -1,0 +1,58 @@
+#!/usr/bin/python3
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.linear_model import PoissonRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.metrics import r2_score
+
+dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep + ".." + os.path.sep
+df = pd.read_csv(dir + "csv_files/well_being.csv")
+
+encoder = OneHotEncoder(handle_unknown="ignore")
+base_features = [
+    "What programme are you in?",
+    "Have you taken a course on machine learning?",
+    "Have you taken a course on information retrieval?",
+    "Have you taken a course on statistics?",
+    "Have you taken a course on databases?"
+]
+encoded = encoder.fit_transform(pd.DataFrame(df[base_features]))
+x = pd.DataFrame(encoded.toarray(), columns=encoder.get_feature_names_out())
+
+y = df["Parsed What is your stress level (0-100)?"]
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=1/3, random_state=13319817)
+
+def poisson_prediction(x_train, y_train, x_test, y_test):
+    param_grid = {
+        "alpha": [0.125, 0.25, 0.5, 1, 2, 4, 8],
+        "solver": ["lbfgs", "newton-cholesky"]
+    }
+    poisson = PoissonRegressor()
+    poisson_grid = GridSearchCV(poisson, param_grid, cv=10, scoring="r2", n_jobs=-1)
+    poisson_grid.fit(x_train, y_train)
+    print("Best Poisson Params.:", poisson_grid.best_params_)
+
+    y_pred = poisson_grid.best_estimator_.predict(x_test)
+    print(r2_score(y_test, y_pred))
+
+
+def random_forest_prediction(x_train, y_train, x_test, y_test):
+    param_grid = {
+        "n_estimators": [40, 60, 80, 100, 120, 140, 160],
+        "max_features": list(map(lambda x: x+1, range(0, len(x_train.columns))))
+    }
+    forest = RandomForestRegressor(
+        random_state=13319817
+    )
+    forest_grid = GridSearchCV(forest, param_grid, cv=10, scoring="r2", n_jobs=-1)
+    forest_grid.fit(x_train, y_train)
+    print("Best Random Forest Params.:", forest_grid.best_params_)
+
+    y_pred = forest_grid.best_estimator_.predict(x_test)
+    print(r2_score(y_test, y_pred))
+
+poisson_prediction(x_train, y_train, x_test, y_test)
+random_forest_prediction(x_train, y_train, x_test, y_test)

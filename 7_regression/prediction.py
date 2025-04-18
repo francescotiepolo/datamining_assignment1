@@ -4,7 +4,7 @@ import pandas as pd
 import warnings
 import json
 from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.linear_model import PoissonRegressor
+from sklearn.linear_model import GammaRegressor
 from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import OneHotEncoder
@@ -12,18 +12,18 @@ from sklearn.metrics import r2_score
 os.environ['PYTHONWARNINGS'] = 'ignore'
 warnings.filterwarnings("ignore")
 
-def poisson_prediction(x_train, y_train, x_test, y_test):
-    print("Poisson")
+def gamma_prediction(x_train, y_train, x_test, y_test):
+    print("gamma")
     param_grid = {
         "alpha": [0.125, 0.25, 0.5, 1, 2, 4, 8],
         "solver": ["lbfgs", "newton-cholesky"]
     }
-    poisson = PoissonRegressor()
-    poisson_grid = GridSearchCV(poisson, param_grid, cv=10, scoring="r2", n_jobs=-1)
-    poisson_grid.fit(x_train, y_train)
+    gamma = GammaRegressor()
+    gamma_grid = GridSearchCV(gamma, param_grid, cv=10, scoring="r2", n_jobs=-1)
+    gamma_grid.fit(x_train, y_train)
 
-    y_pred = poisson_grid.best_estimator_.predict(x_test)
-    return {"Params": poisson_grid.best_params_, "r2": float(r2_score(y_test, y_pred))}
+    y_pred = gamma_grid.best_estimator_.predict(x_test)
+    return {"Params": gamma_grid.best_params_, "r2": float(r2_score(y_test, y_pred))}
 
 
 def random_forest_prediction(x_train, y_train, x_test, y_test):
@@ -98,10 +98,10 @@ for i in columns:
     x_test = pca.transform(x_test)
     print(len(x_train[0]))
 
-    poisson_data = poisson_prediction(x_train, y_train, x_test, y_test)
+    gamma_data = gamma_prediction(x_train, y_train, x_test, y_test)
     random_forest_data = random_forest_prediction(x_train, y_train, x_test, y_test)
     data.append({
-        "poisson": poisson_data,
+        "gamma": gamma_data,
         "random_forest": random_forest_data,
         "variance_ratio": pca.explained_variance_ratio_.tolist()
     })

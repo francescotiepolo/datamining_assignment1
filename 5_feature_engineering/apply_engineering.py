@@ -28,9 +28,10 @@ df['WellBeing'] = (df['Norm.SleepDeviation'] + df['Norm.Stress'] + df['Norm.Spor
 print(df['WellBeing'].describe())
 plt.figure(figsize=(8, 5))
 sns.histplot(df["WellBeing"], bins=20, kde=True, color="skyblue")
-plt.title("Distribution of WellBeing Scores")
-plt.xlabel("WellBeing Score")
-plt.ylabel("Frequency")
+plt.title("Distribution of WellBeing Scores", fontsize=16)
+plt.xlabel("WellBeing Score", fontsize=14)
+plt.xticks(fontsize=12)
+plt.ylabel("Frequency", fontsize=14)
 plt.grid(True)
 plt.savefig(dir + 'figs/well_being_distribution.png', dpi=300)
 

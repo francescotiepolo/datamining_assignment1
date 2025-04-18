@@ -31,7 +31,7 @@ plt.legend()
 plt.savefig(dir + "figs/r2.pdf")
 plt.clf()
 
-best_parameters = list(map(lambda x: {"Gamma Alpha": x[0]["alpha"], "Gamma Solver": x[0]["solver"], "Forest Max Features": x[1]["max_features"], "Forest Number of Estimators": x[1]["n_estimators"]}, zip(gamma_best, random_forest_best)))
+best_parameters = list(map(lambda x: {"Gamma Alpha": x[0]["alpha"], "Gamma Solver": x[0]["solver"], "Forest Max Attributes": x[1]["max_features"], "Forest Number of Estimators": x[1]["n_estimators"]}, zip(gamma_best, random_forest_best)))
 variance_data = list(map(lambda x: {"Variance": x}, variance))
 pd.DataFrame(best_parameters, index=columns).to_latex(dir + "figs/parameters_data.tex")
 pd.DataFrame(variance_data, index=columns).to_latex(dir + "figs/variance.tex")

@@ -8,25 +8,25 @@ from sklearn.linear_model import GammaRegressor
 from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.metrics import r2_score
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 os.environ['PYTHONWARNINGS'] = 'ignore'
 warnings.filterwarnings("ignore")
 
-def gamma_prediction(x_train, y_train, x_test, y_test):
+def gamma_prediction(x_train, y_train, x_test, y_test, scoring_name, scoring_function):
     print("gamma")
     param_grid = {
         "alpha": [0.125, 0.25, 0.5, 1, 2, 4, 8],
         "solver": ["lbfgs", "newton-cholesky"]
     }
     gamma = GammaRegressor()
-    gamma_grid = GridSearchCV(gamma, param_grid, cv=10, scoring="r2", n_jobs=-1)
+    gamma_grid = GridSearchCV(gamma, param_grid, cv=10, scoring=scoring_name, n_jobs=-1)
     gamma_grid.fit(x_train, y_train)
 
     y_pred = gamma_grid.best_estimator_.predict(x_test)
-    return {"Params": gamma_grid.best_params_, "r2": float(r2_score(y_test, y_pred))}
+    return {"Params": gamma_grid.best_params_, scoring_name: float(scoring_function(y_test, y_pred))}
 
 
-def random_forest_prediction(x_train, y_train, x_test, y_test):
+def random_forest_prediction(x_train, y_train, x_test, y_test, scoring_name, scoring_function):
     print("Random Forest")
     param_grid = {
         "n_estimators": [40, 60, 80, 100, 120, 140, 160],
@@ -35,11 +35,11 @@ def random_forest_prediction(x_train, y_train, x_test, y_test):
     forest = RandomForestRegressor(
         random_state=13319817
     )
-    forest_grid = GridSearchCV(forest, param_grid, cv=10, scoring="r2", n_jobs=-1)
+    forest_grid = GridSearchCV(forest, param_grid, cv=10, scoring=scoring_name, n_jobs=-1)
     forest_grid.fit(x_train, y_train)
 
     y_pred = forest_grid.best_estimator_.predict(x_test)
-    return {"Params": forest_grid.best_params_, "r2": float(r2_score(y_test, y_pred))}
+    return {"Params": forest_grid.best_params_, scoring_name: float(scoring_function(y_test, y_pred))}
 
 dir = os.path.dirname(os.path.realpath(__file__)) + os.path.sep + ".." + os.path.sep
 df = pd.read_csv(dir + "csv_files/well_being.csv")
@@ -81,6 +81,9 @@ ignore = [
     "Parsed Give a random number",
     "Parsed Time you went to bed Yesterday"
 ]
+#scoring = ("r2", r2_score)
+scoring = ("neg_mean_squared_error", mean_absolute_error)
+#scoring = ("neg_mean_absolute_error", mean_squared_error)
 ignore.extend(base_features)
 x = x.drop(ignore, axis=1)
 x = x.join(encoded)
@@ -98,13 +101,13 @@ for i in columns:
     x_test = pca.transform(x_test)
     print(len(x_train[0]))
 
-    gamma_data = gamma_prediction(x_train, y_train, x_test, y_test)
-    random_forest_data = random_forest_prediction(x_train, y_train, x_test, y_test)
+    gamma_data = gamma_prediction(x_train, y_train, x_test, y_test, scoring[0], scoring[1])
+    random_forest_data = random_forest_prediction(x_train, y_train, x_test, y_test, scoring[0], scoring[1])
     data.append({
         "gamma": gamma_data,
         "random_forest": random_forest_data,
         "variance_ratio": pca.explained_variance_ratio_.tolist()
     })
 
-with open("./data/regression.json", mode="w") as f:
+with open(f"./data/regression_{scoring[0]}.json", mode="w") as f:
     json.dump(data, f)

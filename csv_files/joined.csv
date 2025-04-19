@@ -47,7 +47,7 @@ Unnamed: 0,Timestamp,What programme are you in?,Have you taken a course on machi
 45,4-1-2025 12:18:06,AI & Data Science,yes,unknown,mu,ja,male,not willing to say,,200,49,7,420,2am,Warm,Sun,200.0,49.0,7.0,420,2.0,weather,weather
 46,4-1-2025 12:18:07,AI & Data Science,yes,1,mu,ja,male,yes,]2000-2005],600,1000,4,66,1am,Going to gym,Weed,,,4.0,66,1.0,sport,alchol/drugs
 47,4-1-2025 12:18:07,AI & Data Science,yes,1,mu,ja,male,yes,]2000-2005],200,0,69,199389299284884742829r7747r8e9w929e94747uch38838udud8388383838e8e8e8e8e8e8d8du8s888x8d88d8u,2:00,Ajax winning,Drugs,200.0,0.0,69.0,,2.0,mood,alchol/drugs
-48,4-1-2025 12:18:08,AI & Data Science,yes,1,mu,ja,female,yes,,320,70,12,4,23:59,Sun,Interacting with my loved ones,320.0,70.0,12.0,4,23.983333333333334,weather,friends/family
+48,4-1-2025 12:18:08,AI & Data Science,yes,1,mu,ja,female,yes,,320,70,12,4,23:59,Sun,Interacting with my loved ones,320.0,70.0,12.0,4,23.98333333333333,weather,friends/family
 49,4-1-2025 12:18:08,Computer Science & Technology,no,0,mu,ja,male,yes,]2000-2005],200,30,5,2324234234234432434,12,nothing to do,can do anything,200.0,30.0,5.0,2324234234234432434,0.0,sleep/rest,sleep/rest
 50,4-1-2025 12:18:08,Computer Science & Technology,yes,1,sigma,ja,not willing to answer,not willing to say,]1995-2000],300,72,2,73,00:00,Beer ,Wine ,300.0,72.0,2.0,73,0.0,alchol/drugs,alchol/drugs
 51,4-1-2025 12:18:10,Computer Science & Technology,yes,1,mu,ja,male,no,]1995-2000],350,5,9,-1,01:00,A cold beer,Kissing the homies for good night ,350.0,5.0,9.0,-1,1.0,alchol/drugs,joke
@@ -85,7 +85,7 @@ Unnamed: 0,Timestamp,What programme are you in?,Have you taken a course on machi
 83,4-1-2025 12:18:28,AI & Data Science,yes,0,mu,nee,female,yes,,390,37,4,197367,1am,Sun ,Good food,390.0,37.0,4.0,197367,1.0,weather,food
 84,4-1-2025 12:18:28,"Business, Finance & Econometrics",yes,0,mu,ja,male,yes,]2000-2005],375,50,4,1,12,Travel,Active,375.0,50.0,4.0,1,0.0,holiday,sport
 85,4-1-2025 12:18:30,AI & Data Science,yes,1,sigma,ja,male,yes,]2000-2005],195,0,10,7,12:34,Not having looking for x ,Spots,195.0,0.0,10.0,7,0.5666666666666664,joke,sport
-86,4-1-2025 12:18:31,Computer Science & Technology,no,0,sigma,nee,gender fluid,yes,-,300,30,4,73,1,Sun,Sub,300.0,30.0,4.0,73,1.0,weather,weather
+86,4-1-2025 12:18:31,Computer Science & Technology,no,0,sigma,nee,gender fluid,yes,nan,300,30,4,73,1,Sun,Sub,300.0,30.0,4.0,73,1.0,weather,weather
 87,4-1-2025 12:18:31,Health & Life Sciences,no,1,mu,nee,female,yes,]2000-2005],234,40,7,8,23:30,Coffee,Running in the sun,234.0,40.0,7.0,8,23.5,food,sport
 88,4-1-2025 12:18:31,Computer Science & Technology,yes,1,mu,ja,other,yes,,330,Over 9000,0,37,5am,Got nothing to do,Interesting activities,330.0,,0.0,37,5.0,sleep/rest,sport
 89,4-1-2025 12:18:32,AI & Data Science,yes,unknown,mu,nee,male,yes,]1995-2000],480,75,3,7,1,Achivements,Socialising,480.0,75.0,3.0,7,1.0,study/work,friends/family
@@ -237,7 +237,7 @@ Unnamed: 0,Timestamp,What programme are you in?,Have you taken a course on machi
 235,4-1-2025 12:20:14,AI & Data Science,no,0,unknown,ja,male,not willing to say,,520,50,10,123,10,sun,wind,520.0,50.0,10.0,123,10.0,weather,weather
 236,4-1-2025 12:20:31,Computer Science & Technology,yes,1,unknown,ja,female,yes,]2000-2005],450,69,6,19898901,1am,Music,Reading,450.0,69.0,6.0,19898901,1.0,sport,sport
 237,4-1-2025 12:20:34,AI & Data Science,yes,1,mu,ja,male,yes,]2000-2005],350,99,5,3951,00:54,No nearing deadlines,Good weather,350.0,99.0,5.0,3951,0.9,sleep/rest,weather
-238,4-1-2025 12:20:43,Computer Science & Technology,no,1,mu,ja,male,yes,-,550,40,0,0,4:00,Free time,I get a lot done,550.0,40.0,0.0,0,4.0,sleep/rest,study/work
+238,4-1-2025 12:20:43,Computer Science & Technology,no,1,mu,ja,male,yes,nan,550,40,0,0,4:00,Free time,I get a lot done,550.0,40.0,0.0,0,4.0,sleep/rest,study/work
 239,4-1-2025 12:20:46,Computer Science & Technology,yes,unknown,mu,ja,not willing to answer,not willing to say,]2000-2005],-3,I BELIEVE I CAN FLY,&&&&,😅,1743502757,👁️‍🗨️,🥴,,,,,,joke,joke
 240,4-1-2025 12:20:47,Computer Science & Technology,yes,1,mu,ja,male,not willing to say,]2000-2005],460,60,5,56,1:30,Good gym session ,Sun and a chest PR,460.0,60.0,5.0,56,1.5,sport,weather
 241,4-1-2025 12:21:33,Computer Science & Technology,yes,0,sigma,ja,male,not willing to say,]2000-2005],300,35,5,69,2am,beer in the sun,2 beers in the sun,300.0,35.0,5.0,69,2.0,alchol/drugs,alchol/drugs

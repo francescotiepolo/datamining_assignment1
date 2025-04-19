@@ -85,7 +85,7 @@ Tijdstempel,What programme are you in?,When is your birthday (date)?,Have you ta
 4/1/2025 12:18:28,AI & Data Science, ,yes,0,mu,nee,female,yes,390,37,4,197367,1am,Sun ,Good food
 4/1/2025 12:18:28,"Business, Finance & Econometrics",]2000-2005],yes,0,mu,ja,male,yes,375,50,4,1,12,Travel,Active
 4/1/2025 12:18:29,AI & Data Science,]2000-2005],yes,1,sigma,ja,male,yes,195,0,10,7,12:34,Not having looking for x ,Spots
-4/1/2025 12:18:30,Computer Science & Technology,-,no,0,sigma,nee,gender fluid,yes,300,30,4,73,1,Sun,Sub
+4/1/2025 12:18:30,Computer Science & Technology,,no,0,sigma,nee,gender fluid,yes,300,30,4,73,1,Sun,Sub
 4/1/2025 12:18:31,Health & Life Sciences,]2000-2005],no,1,mu,nee,female,yes,234,40,7,8,23:30,Coffee,Running in the sun
 4/1/2025 12:18:31,Computer Science & Technology, ,yes,1,mu,ja,other,yes,330,Over 9000,0,37,5am,Got nothing to do,Interesting activities
 4/1/2025 12:18:31,AI & Data Science,]1995-2000],yes,unknown,mu,nee,male,yes,480,75,3,7,1,Achivements,Socialising
@@ -237,7 +237,7 @@ Tijdstempel,What programme are you in?,When is your birthday (date)?,Have you ta
 4/1/2025 12:20:31,AI & Data Science, ,yes,1,unknown,ja,female,yes,450,69,6,19898901,1am,Music,Reading
 4/1/2025 12:20:33,Computer Science & Technology,]2000-2005],yes,1,mu,ja,male,yes,350,99,5,3951,00:54,No nearing deadlines,Good weather
 4/1/2025 12:20:42,AI & Data Science,]2000-2005],no,1,mu,ja,male,yes,550,40,0,0,4:00,Free time,I get a lot done
-4/1/2025 12:20:46,Computer Science & Technology,-,yes,unknown,mu,ja,not willing to answer,not willing to say,-3,I BELIEVE I CAN FLY,&&&&,😅,1743502757,👁️‍🗨️,🥴
+4/1/2025 12:20:46,Computer Science & Technology,,yes,unknown,mu,ja,not willing to answer,not willing to say,-3,I BELIEVE I CAN FLY,&&&&,😅,1743502757,👁️‍🗨️,🥴
 4/1/2025 12:20:47,Computer Science & Technology,]2000-2005],yes,1,mu,ja,male,not willing to say,460,60,5,56,1:30,Good gym session ,Sun and a chest PR
 4/1/2025 12:21:32,Computer Science & Technology,]2000-2005],yes,0,sigma,ja,male,not willing to say,300,35,5,69,2am,beer in the sun,2 beers in the sun
 4/1/2025 12:21:33,Computer Science & Technology,]2000-2005],yes,1,mu,ja,female,yes,450,75,5,88,23.30,Have free time to chill,Smoke
